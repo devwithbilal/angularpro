@@ -1,0 +1,24 @@
+section.firstbanner{
+    background-color: darkgray;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 25px;
+
+}
+
+section.secondbanner{
+    background-color: #d1b4ff;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 25px;
+}
+
+p{
+    font-family: monospace;
+    font-size: 18px;
+    text-align: justify;
+}
