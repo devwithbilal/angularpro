@@ -12,7 +12,7 @@ export class OtherDirective {
   }
 
   @HostListener('click') onClick() {
-    this.highlight('red');
+    this.highlight('gray');
     this.highlight('solid 2px green');
   }
 
