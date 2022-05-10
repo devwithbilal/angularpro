@@ -11,6 +11,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {MatSidenavModule} from '@angular/material/sidenav';
 import { HiddingDirective } from './hidding.directive';
 import { OtherDirective } from './other.directive';
+import { FormComponent } from './form/form.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { OtherDirective } from './other.directive';
     ContactComponent,
     HeaderComponent,
     HiddingDirective,
-    OtherDirective
+    OtherDirective,
+    FormComponent
   ],
   imports: [
     BrowserModule,

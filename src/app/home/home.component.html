@@ -4,16 +4,38 @@
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
             magna aliqua. Ultricies lacus sed turpis tincidunt id aliquet risus feugiat in. Tristique senectus et netus
             et malesuada. Mattis vulputate enim nulla aliquet porttitor. Diam vel quam elementum pulvinar etiam non quam
-            lacus.</p>
+            lacus.
+        </p>
+
+        <p>The hero's birthday is {{ birthday | date }}</p>
 
 </section>
 
 
 <section   class="secondbanner">
-    <h2 appOther >SECOND BANNER</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-            magna aliqua. Ultricies lacus sed turpis tincidunt id aliquet risus feugiat in. Tristique senectus et netus
-            et malesuada. Mattis vulputate enim nulla aliquet porttitor. Diam vel quam elementum pulvinar etiam non quam
-            lacus.
-        </p>
+    <h2>Basic Form</h2>
+        
+        <form>
+            <label>NAME</label>
+            <br>
+            <input type="text" name="user"/>
+            <br>
+            <label>FATHERNAME</label>
+            <br>
+            <input type="text" name="fathername"/>
+            <br>
+            <label>EMAIL</label>
+            <br>
+            <input type="text" name="email"/>
+            <br>
+            <label>JOBTITLE</label>
+            <br>
+            <input type="text" name="jobtitle"/>
+            <br>
+            <label>ADDRESS</label>
+            <br>
+            <input type="text" name="address"/> 
+        </form>
+        <br>
+        <button >Submit</button>
 </section>

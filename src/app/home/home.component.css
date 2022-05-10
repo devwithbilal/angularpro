@@ -21,4 +21,10 @@ p{
     font-family: monospace;
     font-size: 18px;
     text-align: justify;
+    margin-bottom: 0;
+    margin-top: 10px;
+}
+button{
+    border-width: 0ch;
+    padding: 6px;
 }
